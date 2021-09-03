@@ -3,7 +3,7 @@ import { ArrowRightIcon, DotsVerticalIcon, MenuIcon, QuestionMarkCircleIcon, Sea
 function Header() {
    return (
       // Header
-      <header className="sticky px-5 py-3 shadow-lg md:px-10 md:py-6">
+      <header className="sticky px-4 py-3 shadow-lg md:px-10 md:py-4 lg:py-6">
 
          <div className="flex justify-between">
             {/* Menu Icon */}
@@ -32,7 +32,9 @@ function Header() {
                   <div className=" active:scale-75 transition duration-200 ease-in-out ">
                      <div className="flex items-center justify-center font-semibold cursor-pointer border rounded-lg border-gray-500 p-1 text-gray-500 ">
                         Sign in
-                        <ArrowRightIcon className="h-4 text-gray-500 ml-2 " />
+                        <div>
+                           <ArrowRightIcon className="h-4 text-gray-500 ml-2 " />
+                        </div>
                      </div>
                   </div>
                   <div className="hidden md:block text-gray-800 cursor-pointer font-semibold ml-3 hover:text-gray-500">
