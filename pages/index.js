@@ -7,20 +7,21 @@ import SideBar from './Components/SideBar';
 export default function Home() {
   return (
 
-    <main>
+    <main className="min-h-screen antialiased">
 
       <div>
         <Header />
       </div>
 
 
-      <section className="flex ">
+      <section className="lg:flex relative">
 
-        <div className="hidden lg:block">
+
+        <div className="absolute lg:relative hidden lg:block z-10  h-screen">
           <SideBar />
         </div>
 
-        <div>
+        <div className="flex-grow">
           <div className="md:flex md:justify-center lg:float-left">
             <Categories />
           </div>

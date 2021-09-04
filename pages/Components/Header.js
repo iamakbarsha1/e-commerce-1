@@ -54,7 +54,7 @@ function Header() {
 
                {/* Search Icon */}
                <div className="md:hidden ">
-                  <SearchCircleIcon className="h-6 text-gray-700 cursor-pointer" />
+                  <SearchIcon className="h-6 flex items-center justify-center text-gray-700 cursor-pointer" />
                </div>
 
             </div>

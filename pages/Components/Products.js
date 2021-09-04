@@ -3,7 +3,7 @@ import { Input } from "postcss"
 
 function Products() {
    return (
-      <div className="mx-4 flex space-x-2 lg:space-x-4 overflow-scroll ">
+      <div className="mx-4 flex space-x-2 lg:space-x-4 ">
          {/* <div>
             <p></p>
          </div> */}
