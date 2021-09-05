@@ -17,7 +17,7 @@ export default function Home() {
       <section className="lg:flex relative">
 
 
-        <div className="absolute lg:relative hidden lg:block z-10  h-screen">
+        <div className="absolute lg:relative hidden lg:block z-10  h-screen" onClick="{open: false" >
           <SideBar />
         </div>
 
@@ -43,7 +43,7 @@ export default function Home() {
       </section>
 
 
-    </main>
+    </main >
 
   )
 }

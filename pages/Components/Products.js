@@ -1,5 +1,4 @@
 import { ShoppingCartIcon } from "@heroicons/react/solid"
-import { Input } from "postcss"
 
 function Products() {
    return (
@@ -8,7 +7,7 @@ function Products() {
             <p></p>
          </div> */}
 
-         <div className="bg-gray-200 rounded-xl space-x-2">
+         <div className="bg-gray-200 rounded-xl space-x-2 cursor-pointer">
             {/* Img */}
             <div className="">
                <img src="https://www.ojjo.app/ojjo/data/product/image?tenantId=grocery&productId=5503"
@@ -47,7 +46,7 @@ function Products() {
 
                {/* Cart Icon */}
                <div className="flex items-center mr-6">
-                  <div className="bg-red-00 rounded-full p-2">
+                  <div className="bg-red-900 rounded-full p-2">
                      <ShoppingCartIcon className="h-6 text-gray-100" />
                   </div>
                </div>

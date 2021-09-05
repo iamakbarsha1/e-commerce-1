@@ -4,7 +4,7 @@ function Categories() {
 
          {/* Categories */}
          <div className="md:flex grid grid-cols-3 px-4 pt-4 pb-3 gap-2">
-            <span className="bg-gray-300 px-2 py-2 rounded-lg font-medium text-sm cursor-pointer flex items-center justify-center md:w-28 border hover:border hover:text-white hover:bg-gray-500 transition active:scale-75 ease-in-out duration-300">Vegetables</span>
+            <span className="bg-gray-300 px-2 py-2 rounded-lg font-medium text-sm cursor-pointer flex items-center justify-center md:w-28 border hover:border hover:text-white hover:bg-blue-400 hover:shadow-xl transition active:scale-75 ease-in-out duration-300">Vegetables</span>
 
             <p className="bg-gray-300 px-2 py-2 rounded-lg font-medium text-sm cursor-pointer flex items-center justify-center md:w-28 border hover:border hover:text-white hover:bg-gray-500 transition active:scale-75 ease-in-out duration-300">Fruits</p>
 
