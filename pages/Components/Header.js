@@ -1,18 +1,40 @@
-import { ArrowRightIcon, DotsVerticalIcon, MenuIcon, QuestionMarkCircleIcon, SearchCircleIcon, SearchIcon } from "@heroicons/react/solid";
+import { ArrowRightIcon, DotsVerticalIcon, MenuIcon, QuestionMarkCircleIcon, SearchCircleIcon, SearchIcon, ShoppingCartIcon } from "@heroicons/react/solid";
+import { useRouter } from "next/dist/client/router";
 
 function Header() {
+
+   const router = useRouter();
+
+   const cart = () => {
+      router.push({
+         pathname: "/cart"
+      });
+   };
+
+   // function menuIcon() {
+   //    const menuIcon = document.getElementById("#sidebar");
+   //    if (menuIcon.style.display === "block") {
+   //       menuIcon.style.display = "none";
+   //    }
+   //    else {
+   //       menuIcon.style.display = "block";
+   //    }
+   // }
+
    return (
       // Header
-      <header className="sticky px-4 py-3 shadow-lg md:px-10 md:py-4 lg:py-6">
+      <header className="sticky px-4 py-3 shadow-lg md:px-10 md:py-4 lg:py-4">
 
          <div className="flex justify-between">
             {/* Menu Icon */}
-            <div className="md:hidden flex items-center">
-               <MenuIcon className="h-6 text-gray-700" />
+            <div
+               // id="#menuIcon"
+               className="md:hidden flex items-center cursor-pointer" onClick="menuIcon()">
+               <MenuIcon className="h-5 md:h-6 text-gray-700" />
             </div>
 
             {/* Logo */}
-            <div className=" flex items-center text-gray-700 text-base cursor-pointer font-semibold md:text-lg lg:text-xl">
+            <div className=" flex items-center justify-center text-gray-700 text-base cursor-pointer font-semibold md:text-sm lg:text-xl">
                Online E-Commerce
             </div>
 
@@ -30,14 +52,14 @@ function Header() {
             <div className="flex sm:space-x-1 md:space-x-3 lg:space-x-4">
                <div className="hidden md:block md:flex md:items-center md:justify-center ">
                   <div className=" active:scale-75 transition duration-200 ease-in-out ">
-                     <div className="flex items-center justify-center font-semibold cursor-pointer border rounded-lg border-gray-500 p-1 text-gray-500 ">
+                     <div className="flex items-center justify-center font-semibold text-sm cursor-pointer border rounded-lg border-gray-500 p-1 text-gray-500 ">
                         Sign in
                         <div>
                            <ArrowRightIcon className="h-4 text-gray-500 ml-2 " />
                         </div>
                      </div>
                   </div>
-                  <div className="hidden md:block text-gray-800 cursor-pointer font-semibold ml-3 hover:text-gray-500">
+                  <div className="hidden md:block text-gray-800 cursor-pointer font-semibold text-sm ml-3 hover:text-gray-500">
                      Log in
                   </div>
                </div>
@@ -53,8 +75,13 @@ function Header() {
                </div>
 
                {/* Search Icon */}
-               <div className="md:hidden ">
-                  <SearchIcon className="h-6 flex items-center justify-center text-gray-700 cursor-pointer" />
+               <div className="md:hidden flex items-center">
+                  <SearchIcon className="h-5 md:h-6 mr-1 text-gray-700 cursor-pointer" />
+               </div>
+
+               {/* Cart Icon */}
+               <div className=" flex items-center cursor-pointer" onClick={cart}>
+                  <ShoppingCartIcon className="h-5 md:h-6 flex items-center justify-center text-gray-700 " />
                </div>
 
             </div>
