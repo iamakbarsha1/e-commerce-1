@@ -1,5 +1,6 @@
 import { useRouter } from "next/dist/client/router"
 import Header from "./Components/Header"
+import SideBar from "./Components/SideBar";
 
 function Cart() {
 
@@ -17,6 +18,12 @@ function Cart() {
          <main>
             <Header />
          </main>
+
+         <section>
+            <SideBar />
+         </section>
+
+
       </div>
    )
 }

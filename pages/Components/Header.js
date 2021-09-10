@@ -34,8 +34,10 @@ function Header() {
             </div>
 
             {/* Logo */}
-            <div className=" flex items-center justify-center text-gray-700 text-base cursor-pointer font-semibold md:text-sm lg:text-xl">
-               Online E-Commerce
+            <div
+               onClick={() => router.push("/")}
+               className=" flex items-center justify-center text-gray-700 text-base cursor-pointer font-semibold md:text-sm lg:text-xl">
+               Online eCommerce
             </div>
 
             {/* Search Bar */}

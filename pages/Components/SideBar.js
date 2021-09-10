@@ -7,7 +7,7 @@ function SideBar() {
    return (
       <nav
          id="#sidebar"
-         className="relative z-0 h-screen w-72 md:w-48 bg-gray-700"
+         className="relative z-0 h-screen w-72 md:w-48 lg:w-60 bg-gray-700"
 
       >
          <div className="p-3 bg-gray-600 ">
