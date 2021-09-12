@@ -1,0 +1,52 @@
+[
+   {
+      "img": "https://www.ojjo.app/ojjo/data/product/image?tenantId=grocery&productId=4884",
+      "name": "Baby Potato",
+      "price": "Rs. 64 /kg"
+   },
+   {
+      "img": "https://www.ojjo.app/ojjo/data/product/image?tenantId=grocery&productId=4707",
+      "name": "Tomato",
+      "price": "Rs. 20 /kg"
+   },
+   {
+      "img": "https://www.ojjo.app/ojjo/data/product/image?tenantId=grocery&productId=214",
+      "name": "Onion",
+      "price": "Rs. 30 /kg"
+   },
+   {
+      "img": "https://www.ojjo.app/ojjo/data/product/image?tenantId=grocery&productId=4731",
+      "name": "Cauliflower",
+      "price": "Rs. 30 /pc"
+   },
+   {
+      "img": "https://www.ojjo.app/ojjo/data/product/image?tenantId=grocery&productId=4829",
+      "name": "Cabbage",
+      "price": "Rs. 15 /kg"
+   },
+   {
+      "img": "https://www.ojjo.app/ojjo/data/product/image?tenantId=grocery&productId=4719",
+      "name": "Coconut",
+      "price": "Rs. 25/pc"
+   },
+   {
+      "img": "https://www.ojjo.app/ojjo/data/product/image?tenantId=grocery&productId=4827",
+      "name": "Potato",
+      "price": "Rs. 35 /kg"
+   },
+   {
+      "img": "https://www.ojjo.app/ojjo/data/product/image?tenantId=grocery&productId=4725",
+      "name": "Cucumber",
+      "price": "Rs. 40 /kg"
+   },
+   {
+      "img": "https://www.ojjo.app/ojjo/data/product/image?tenantId=grocery&productId=170",
+      "name": "Garlic",
+      "price": "Rs. 180 /kg"
+   },
+   {
+      "img": "https://www.ojjo.app/ojjo/data/product/image?tenantId=grocery&productId=4727",
+      "name": "Ladies Finger",
+      "price": "Rs. 24 /kg"
+   }
+]
