@@ -5,7 +5,7 @@ function PopularDeals({ img, name, price }) {
 
    return (
 
-      <div className=" bg-gray-200 rounded-xl space-x-2 lg:space-x-4 cursor-pointer hover:shadow-lg">
+      <div className=" bg-gray-400 rounded-xl space-x-2 lg:space-x-4 cursor-pointer hover:shadow-lg">
          {/* Img className=" bg-gray-200 rounded-xl space-x-2 lg:space-x-4 cursor-pointer hover:shadow-lg" */}
 
          <div className="flex-col">
@@ -20,7 +20,7 @@ function PopularDeals({ img, name, price }) {
                <div className="ml-2 space-y-2 ">
                   {/* Name-Product */}
                   <div>
-                     <p className="mt-2 text-sm">
+                     <p className="mt-2 text-xs">
                         {name}
                      </p>
                   </div>
